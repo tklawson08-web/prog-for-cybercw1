@@ -1,21 +1,15 @@
-# Prog-for-cybercw1
-
-Programming for cyber securtiy - coursework 1
+## Cyber Security Utilities
 
 ## Student details
 **Name** [Tylor Lawson]
 **Campus** [New college Lanarkshire/UWS]
 **BannerID** [B01888348]
 
-## Exercises 
-Each exercise has its own branch with its own README explaining how the program and code works 
+## Program description 
+`security_tools.py` is used as a reusable module which has three different functions them being `validation()` while validates a password and checks if it has the min length of 10 and a letter number and symbol the next function is `valid_ip()` which does a ipv4 check making sure its in the right format and the last is `password_generator()` which generates a random length password between 10-16 with a guaranteed uppercase lowercase number and symbol.
+`main.py` import this module into the code and asks the user for a password ip address and shows the results and suggests a strong password if the password entered is not secure enough 
 
-| TASK | BRANCH | DESCRIPTION|
-|------|--------|-------------|
-| 1 | 'security-tool' | The security Tool consists of an authentication where the user must pass before accessing the menu to gain access to the other function once authentication is passed the menu will consistantly run until Exit is chosen other than that there is 3 other options 1 being a security event counter brute-force simulation login authentication. |
-| 2 | 'security-event-logger' | The security Event logger consists of a security event logger which records security related activity with sufficient information |
-| 3 | 'ip-address-validator' | the Ip-address-validator consists of a program that will accept an ip address a a parameter and checks to see if it is a valid IP address
-| 4 | 'security-incident-manager' | the Security incident manager uses directories to contains incidents that have happened with corisponding info that will realte to that incident |
-| 5 | 'cyber-security-utilities' | consists of reusable security tools that have (password check, ip check and password generator)
+## How to run this program 
+this program requires python 3.15.2 and to keep both of the files in the same folder 
 
-## Switching branches
+python main.py
