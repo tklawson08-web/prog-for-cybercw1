@@ -1,21 +1,17 @@
-# Prog-for-cybercw1
-
-Programming for cyber securtiy - coursework 1
+## IP Address Validator
 
 ## Student details
 **Name** [Tylor Lawson]
 **Campus** [New college Lanarkshire/UWS]
 **BannerID** [B01888348]
 
-## Exercises 
-Each exercise has its own branch with its own README explaining how the program and code works 
+## Program description
+the function called `validate_ip()` this function will remove spaces as well as to check if the address has the exact correct amount of gots being 3 and if the secitons have four parts and that each section is between 0 - 255 the program will then ask the user for an ip address and say if it is a valid one or if it is not a valid IP
 
-| TASK | BRANCH | DESCRIPTION|
-|------|--------|-------------|
-| 1 | 'security-tool' | The security Tool consists of an authentication where the user must pass before accessing the menu to gain access to the other function once authentication is passed the menu will consistantly run until Exit is chosen other than that there is 3 other options 1 being a security event counter brute-force simulation login authentication. |
-| 2 | 'security-event-logger' | The security Event logger consists of a security event logger which records security related activity with sufficient information |
-| 3 | 'ip-address-validator' | the Ip-address-validator consists of a program that will accept an ip address a a parameter and checks to see if it is a valid IP address
-| 4 | 'security-incident-manager' | the Security incident manager uses directories to contains incidents that have happened with corisponding info that will realte to that incident |
-| 5 | 'cyber-security-utilities' | consists of reusable security tools that have (password check, ip check and password generator)
+## How to run this program
+This requires Python 3.15.2
 
-## Switching branches
+python ip_address_validator.py
+
+
+Example: `192.168.1.10` -> Valid, `192.168.1.300` -> Invalid, `192.168.one.10` -> Invalid.
